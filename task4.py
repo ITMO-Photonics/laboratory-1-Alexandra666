@@ -19,7 +19,7 @@ print(r2)
 Ainv=linalg.inv(A)
 for t in np.linspace(0.,10.,100):
     b=k/(1.+k*t)
-r3=np.dot(Ainv, b)
+    r3=np.dot(Ainv, b)
 print(r3)
 
 start_time=time.time()
